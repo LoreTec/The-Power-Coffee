@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Devs | El espacio ideal para programar y tomar buen café</title>
+  <meta name="description" content="Café de especialidad, internet de alta velocidad y el mejor ambiente para desarrolladores.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación y Menú Móvil -->
+  <header class="navbar">
+    <div class="logo">Café <span>Devs</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    <nav class="nav-menu" id="navMenu">
+      <a href="#hero">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Sección Hero (Llamada a la Acción) -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>El combustible oficial para tus líneas de código</h1>
+        <p>Café de especialidad, conexión gigabit y espacios silenciosos para tu jornada de desarrollo.</p>
+        <a href="#contacto" class="btn-primary">Reserva tu Espacio</a>
+      </div>
+    </section>
+
+    <!-- 2. Sección de Servicios / Características -->
+    <section id="servicios" class="servicios">
+      <h2>¿Por qué elegir Café Devs?</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Internet Gigabit</h3>
+          <p>Conexión Wi-Fi 6 dedicada de baja latencia para tus despliegues sin interrupciones.</p>
+        </article>
+        <article class="card">
+          <h3>Café de Especialidad</h3>
+          <p>Grano fresco de origen local tostado para mantener la máxima concentración.</p>
+        </article>
+        <article class="card">
+          <h3>Salas de Junts y Call-Booths</h3>
+          <p>Espacios insonorizados para tus reuniones diarias o entrevistas técnicas.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. Sección de Testimonios -->
+    <section id="testimonios" class="testimonios">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonios-grid">
+        <blockquote class="testimonio">
+          <p>"El mejor lugar en la ciudad para trabajar remoto. El café es increíble y el internet nunca falla."</p>
+          <cite>— Carlos M., Desarrollador Frontend</cite>
+        </blockquote>
+        <blockquote class="testimonio">
+          <p>"Las salas insonorizadas me salvaron para mis entrevistas de trabajo. 100% recomendado."</p>
+          <cite>— Ana P., Ingeniera de Software</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- 4. Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+      <h2>Reserva tu mesa o contáctanos</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+          <small class="error-msg" id="errorNombre"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="tu@correo.com">
+          <small class="error-msg" id="errorEmail"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Cómo podemos ayudarte?"></textarea>
+          <small class="error-msg" id="errorMensaje"></small>
+        </div>
+
+        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+        <div id="formSuccess" class="success-msg"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Café Devs. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
