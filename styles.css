@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #a34303;    /* Café Caramelo / Terracota (Cálido y llamativo) */
-  --primary-hover: #A0522B;    /* Café tostado intenso para interacciones */
-  --bg-main: #eccd9e;          /* Crema suave / Marfil (Fondo principal claro) */
-  --bg-card: #FFFFFF;          /* Blanco puro para tarjetas y formularios */
-  --bg-navbar: #bd935f;        /* Crema beige para el menú de navegación */
-  --text-color: #2d2d1e;       /* Café espresso muy oscuro (Excelente legibilidad) */
-  --text-muted: #252a23;       /* Café suave para descripciones y subtítulos */
-  --error-color: #D9534F;      /* Rojo suave para mensajes de error */
-  --success-color: #4B9B62;    /* Verde hoja para confirmación */
+  --primary-color: #a34303;    
+  --primary-hover: #A0522B;   
+  --bg-main: #eccd9e;          
+  --bg-card: #FFFFFF;         
+  --bg-navbar: #bd935f;        
+  --text-color: #2d2d1e;       
+  --text-muted: #252a23;       
+  --error-color: #D9534F;      
+  --success-color: #4B9B62;    
 }
 
 * {
